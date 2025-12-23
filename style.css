@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Ana İçerik Alanı */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.selamlama {
+    text-align: center;
+}
+
+/* İlgi Alanları Kutuları */
+.kutu-grup {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.kutu {
+    flex: 1;
+    border: 1px solid #3be303; /* Seçtiğin yeşil renk çerçeve */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Buton ve Alt Kısım */
+.alt-bilgi {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.basit-buton {
+    background-color: #21fd04;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #333;
+    display: inline-block;
+}
+
+.basit-buton:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Mobil için */
+@media (max-width: 600px) {
+    .kutu-grup {
+        display: block;
+    }
+    .kutu {
+        margin-bottom: 10px;
+    }
+}

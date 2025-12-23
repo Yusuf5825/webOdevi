@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Yusuf Demir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="taslak.html">Ana Sayfa</a></li>
+                <li><a href="hakkimda.html">Hakkımda</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Bana Ulaşın</h1>
+        <p>Ödevlerim veya projelerim hakkında soru sormak için aşağıdaki kanalları kullanabilirsiniz:</p>
+
+        <h3>Sosyal Medya ve Linkler</h3>
+        <ul>
+            <li><strong>E-posta:</strong> <a href="mailto:muhammedyusufdemir1234@gmail.com">muhammedyusufdemir1234@gmail.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yusuf-demir-02108b330/" target="_blank">LinkedIn Profilim</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/Yusuf5825" target="_blank">GitHub Profilim</a></li>
+        </ul>
+
+        <hr>
+
+        <h3>Mesaj Gönder</h3>
+        <form action="mailto:muhammedyusufdemir1234@gmail.com" method="post" enctype="text/plain">
+            <p>
+                <label for="ad">Adınız Soyadınız:</label><br>
+                <input type="text" id="ad" name="ad" required>
+            </p>
+            <p>
+                <label for="eposta">E-posta Adresiniz:</label><br>
+                <input type="email" id="eposta" name="eposta" required>
+            </p>
+            <p>
+                <label for="mesaj">Mesajınız:</label><br>
+                <textarea id="mesaj" name="mesaj" rows="5" cols="30" required></textarea>
+            </p>
+            <p>
+                <button type="submit">Gönder (Mail Uygulamasını Açar)</button>
+            </p>
+        </form>
+    </main>
+
+    <script src="kodkısmı.js"></script>
+</body>
+</html>
