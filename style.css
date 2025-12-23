@@ -1,3 +1,4 @@
+/*Genel ayarlar*/
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -48,7 +49,7 @@ main {
 
 .kutu {
     flex: 1;
-    border: 1px solid #3be303; /* Seçtiğin yeşil renk çerçeve */
+    border: 1px solid #3be303; 
     padding: 10px;
     text-align: center;
 }
